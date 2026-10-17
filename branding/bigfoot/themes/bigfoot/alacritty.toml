@@ -1,0 +1,51 @@
+[colors.primary]
+background = "#0a0f16"
+foreground = "#d8e4f0"
+
+[colors.cursor]
+text = "#0a0f16"
+cursor = "#ffffff"
+
+[colors.vi_mode_cursor]
+text = "#0a0f16"
+cursor = "#ffffff"
+
+[colors.search.matches]
+foreground = "#04070c"
+background = "#ffc14d"
+
+[colors.search.focused_match]
+foreground = "#04070c"
+background = "#ff5d5d"
+
+[colors.footer_bar]
+foreground = "#04070c"
+background = "#d8e4f0"
+
+[colors.selection]
+text = "#ffffff"
+background = "#16283a"
+
+[colors.normal]
+black = "#0a0f16"
+red = "#ff5d5d"
+green = "#5ce8a4"
+yellow = "#ffc14d"
+blue = "#6aa8ff"
+magenta = "#c792ea"
+cyan = "#3ce8b5"
+white = "#d8e4f0"
+
+[colors.bright]
+black = "#5d6f82"
+red = "#ff8f8f"
+green = "#8df0bd"
+yellow = "#ffd98a"
+blue = "#a5c8ff"
+magenta = "#d9b3f5"
+cyan = "#7df0d2"
+white = "#ffffff"
+
+# console glass: only the background is translucent, text stays opaque
+[window]
+opacity = 0.8

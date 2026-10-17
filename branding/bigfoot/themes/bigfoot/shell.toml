@@ -1,0 +1,137 @@
+# Bigfoot: Omarchy shell surfaces as ground-station consoles — dark panes edged by the
+# signal beam, with signal-mint highlights for whatever is selected.
+# Full replacement for the generated shell.toml (same keys as default/themed/shell.toml.tpl).
+
+[bar]
+background       = "#0a0f16"
+background-alpha = 0.9
+text             = "#ffffff"
+active           = "#3ce8b5"
+scale-with-font  = true
+size-horizontal  = 28
+size-vertical    = 30
+
+[hyprland]
+active-border            = "rgba(3ce8b5e6) rgba(106aa8ffcc) 135deg"
+active-border-foreground = "rgba(3ce8b5cc) rgba(106aa8ffaa) 135deg"
+
+[controls]
+# Console chips: a faint cool fill and rim at rest, brighter on hover and focus, and a
+# signal-mint pill for the current item (e.g. the active workspace).
+normal-color        = "#d8e4f0"
+normal-fill-alpha   = 0.06
+normal-border       = "#d8e4f0"
+normal-border-width = 1
+normal-border-alpha = 0.18
+
+hover-cursor-color        = "#ffffff"
+hover-cursor-fill-alpha   = 0.14
+hover-cursor-border       = "#ffffff"
+hover-cursor-border-width = 1
+hover-cursor-border-alpha = 0.4
+
+focus-color        = "#ffffff"
+focus-fill-alpha   = 0.14
+focus-border       = "#ffffff"
+focus-border-width = 1
+focus-border-alpha = 0.4
+
+selected-color        = "#3ce8b5"
+selected-fill-alpha   = 0.22
+selected-border       = "#3ce8b5"
+selected-border-width = 1
+selected-border-alpha = 0.9
+
+pressed-fill-alpha   = 0.3
+selection-fill-alpha = 0.35
+
+[spacing]
+scale = 1.0
+scale-with-font = true
+
+[font]
+base-size = 12
+
+[popups]
+background       = "#0a0f16"
+background-alpha = 0.92
+text             = "#d8e4f0"
+border           = "hyprland.active-border-foreground"
+border-alpha     = 1.0
+
+[tooltip]
+background       = "#0a0f16"
+background-alpha = 0.95
+text             = "#d8e4f0"
+border           = "hyprland.active-border-foreground"
+border-alpha     = 0.8
+
+[notifications]
+background       = "#0a0f16"
+background-alpha = 0.9
+text             = "#d8e4f0"
+border           = "hyprland.active-border"
+border-alpha     = 1.0
+countdown        = "#3ce8b5"
+
+[launcher]
+background                = "#0a0f16"
+background-alpha          = 0.9
+text                      = "#d8e4f0"
+border                    = "hyprland.active-border"
+border-alpha              = 1.0
+scrim                     = "#04070c"
+scrim-alpha               = 0.2
+selected-background       = "#3ce8b5"
+selected-background-alpha = 0.2
+selected-text             = "#d9fff4"
+selected-border           = "#3ce8b5"
+selected-border-alpha     = 0.55
+
+[menu]
+background                = "#0a0f16"
+background-alpha          = 0.9
+text                      = "#d8e4f0"
+border                    = "hyprland.active-border"
+border-alpha              = 1.0
+scrim                     = "#04070c"
+scrim-alpha               = 0.2
+selected-background       = "#3ce8b5"
+selected-background-alpha = 0.2
+selected-text             = "#d9fff4"
+selected-border           = "#3ce8b5"
+selected-border-alpha     = 0.55
+
+[polkit]
+background       = "#0a0f16"
+background-alpha = 0.92
+text             = "#d8e4f0"
+text-error       = "#ff5d5d"
+border           = "hyprland.active-border"
+border-error     = "#ff5d5d"
+border-alpha     = 1.0
+scrim            = "#04070c"
+scrim-alpha      = 0.35
+accent           = "#3ce8b5"
+
+[lock]
+background       = "#0a0f16"
+background-alpha = 0.7
+text             = "#d8e4f0"
+placeholder      = "#8b9bab"
+text-error       = "#ff5d5d"
+border           = "hyprland.active-border-foreground"
+border-active    = "hyprland.active-border"
+border-error     = "#ff5d5d"
+border-alpha     = 1.0
+selection        = "#3ce8b5"
+selection-alpha  = 0.3
+
+[image-picker]
+scrim                   = "#04070c"
+scrim-alpha             = 0.35
+text                    = "#d8e4f0"
+selected-border         = "#3ce8b5"
+selected-border-alpha   = 1.0
+unselected-border       = "#d8e4f0"
+unselected-border-alpha = 0.18

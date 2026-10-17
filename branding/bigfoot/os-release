@@ -1,0 +1,13 @@
+# Bigfoot OS — 品牌显示层
+# 注意：ID / ID_LIKE 保持 arch 不动，只改显示名。
+# 这样既在"设置→关于"里显示 Bigfoot OS，又不破坏依赖发行版判断的脚本。
+NAME="Bigfoot OS"
+PRETTY_NAME="Bigfoot OS"
+ID=arch
+ID_LIKE=archlinux
+BUILD_ID=rolling
+ANSI_COLOR="38;2;60;232;181"
+HOME_URL="https://www.yat.lat"
+SUPPORT_URL="https://www.yat.lat"
+BUG_REPORT_URL="https://github.com/yatstudio/bigfoot-os/issues"
+LOGO=bigfoot

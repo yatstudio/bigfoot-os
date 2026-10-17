@@ -1,0 +1,9 @@
+# Bigfoot: dark console, with the visualizer drawn as the bigfoot beam —
+# deep teal at the base, signal mint at the peaks.
+bg = "#0a0f16"
+accent = "#3ce8b5"
+bright_fg = "#ffffff"
+fg = "#a9bccd"
+green = "#123a34"
+yellow = "#2bb98f"
+red = "#3ce8b5"

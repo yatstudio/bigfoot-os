@@ -1,0 +1,38 @@
+# Bigfoot: your desktop as a ground station. Deep-space blacks, cool phosphor text,
+# and one colour that carries meaning: the signal — a phosphor mint beam running through
+# everything. Green means nominal, amber means caution, red means alarm. Like a real console.
+mode = "dark"
+
+accent = "#3ce8b5"
+selection = "#16283a"
+muted = "#5d6f82"
+
+background = "#0a0f16"
+dark_background = "#070b11"
+darker_background = "#04070c"
+lighter_background = "#101825"
+
+foreground = "#d8e4f0"
+dark_foreground = "#8b9bab"
+light_foreground = "#e8f1fa"
+bright_foreground = "#ffffff"
+
+red = "#ff5d5d"
+yellow = "#ffc14d"
+orange = "#ff9a5c"
+green = "#5ce8a4"
+cyan = "#3ce8b5"
+blue = "#6aa8ff"
+magenta = "#c792ea"
+brown = "#a89a86"
+
+bright_red = "#ff8f8f"
+bright_yellow = "#ffd98a"
+bright_green = "#8df0bd"
+bright_cyan = "#7df0d2"
+bright_blue = "#a5c8ff"
+bright_magenta = "#d9b3f5"
+
+# Window edge: the bigfoot beam — signal mint dissolving into deep-space blue.
+hyprland_active_border = "rgba(3ce8b5e6) rgba(106aa8ffcc) 135deg"
+hyprland_inactive_border = "rgba(5d6f8240) rgba(5d6f8212) 135deg"

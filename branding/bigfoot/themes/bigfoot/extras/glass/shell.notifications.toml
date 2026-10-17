@@ -1,0 +1,9 @@
+# Glass value, used only by the full glass effect (linked from the theme root, which
+# installed themes drop). The theme's shell.toml keeps this panel readable without blur.
+[notifications]
+background       = "#0a0f16"
+background-alpha = 0.48
+text             = "#d8e4f0"
+border           = "hyprland.active-border"
+border-alpha     = 1.0
+countdown        = "#3ce8b5"

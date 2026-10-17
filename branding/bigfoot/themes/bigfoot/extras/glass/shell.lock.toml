@@ -1,0 +1,14 @@
+# Glass value, used only by the full glass effect (linked from the theme root, which
+# installed themes drop). The theme's shell.toml keeps this panel readable without blur.
+[lock]
+background       = "#0a0f16"
+background-alpha = 0.32
+text             = "#d8e4f0"
+placeholder      = "#8b9bab"
+text-error       = "#ff5d5d"
+border           = "hyprland.active-border-foreground"
+border-active    = "hyprland.active-border"
+border-error     = "#ff5d5d"
+border-alpha     = 1.0
+selection        = "#3ce8b5"
+selection-alpha  = 0.3
