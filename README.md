@@ -35,14 +35,14 @@ cd bigfoot-os
 
 - `branding/bigfoot/apply.sh` —— 品牌覆盖脚本（主题 / 壁纸 / os-release / 主机名）
 - `branding/bigfoot/themes/bigfoot/` —— Bigfoot 默认主题（源自 Downlink 配色体系）
-- `branding/bigfoot/backgrounds/` —— 品牌壁纸（待补充）
+- `branding/bigfoot/backgrounds/` —— 品牌壁纸（bigfoot-default.png，3840×2160）
 - `branding/bigfoot/os-release` —— 系统显示名模板（ID 保持 arch）
 - `install/install.sh` —— 一键安装入口
 
 ## 路线图
 
 - [x] 品牌覆盖层骨架 + apply.sh
-- [ ] Bigfoot 专属壁纸 / logo.svg / icon.png
+- [x] Bigfoot 专属壁纸 / logo.svg / icon.png
 - [ ] 预装软件清单（bigfoot 硬件用户常用工具）
 - [ ] archiso 定制 ISO（一键出厂镜像，给 bigfoot 整机预装用）
 - [ ] OTA 更新通道（omarchy 更新 + 品牌层自动重应用）
